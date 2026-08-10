@@ -1,0 +1,31 @@
+name: Runner Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-runner:
+    runs-on: self-hosted
+
+    steps:
+      - name: Check runner
+        run: |
+          echo "===== RUNNER ====="
+          hostname
+          whoami
+          pwd
+
+          echo "===== OS ====="
+          uname -a
+
+          echo "===== CPU ====="
+          nproc
+
+          echo "===== MEMORY ====="
+          free -h
+
+          echo "===== DISK ====="
+          df -h /
+
+          echo "===== NETWORK ====="
+          curl -I https://github.com
