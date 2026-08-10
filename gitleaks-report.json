@@ -1,0 +1,22 @@
+[
+ {
+  "RuleID": "demo-api-key",
+  "Description": "Demo API key for training",
+  "StartLine": 10,
+  "EndLine": 10,
+  "StartColumn": 24,
+  "EndColumn": 62,
+  "Match": "DEMO_API_KEY_1234567890abcdefghijklmnop",
+  "Secret": "DEMO_API_KEY_1234567890abcdefghijklmnop",
+  "File": "/repo/src/server.js",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 5.1122,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [],
+  "Fingerprint": "/repo/src/server.js:demo-api-key:10"
+ }
+]
